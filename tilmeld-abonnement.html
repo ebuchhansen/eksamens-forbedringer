@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="da" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/projekt6.css">
+    <link rel="stylesheet" href="css/tilmeld-abonnement.css">
+    <script src="javascript/modal.js" defer></script>
+    <script src="javascript/tilmeld.js" defer></script>
+    <link rel="icon" type="image/jpg" href="img/logo-img1.png">
+    <title>Tilmeld/Afmeld abonnement</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <a href="egen-side.html">
+          <div class="logo">
+            <img class="logo-img" src="img/logo-img1.png" alt="Ordo logo">
+            <h3>Ordo</h3>
+          </div>
+        </a>
+      </header>
+      <aside class="aside">
+        <a href="egen-side.html">
+          <div class="tilbagepil">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAStJREFUaEPtl0EKwjAQRZPqQRQUvIDQpe4VPII9mT2CUA/gsuIFBBW8SaSLQClqx+RPhsJ0m5nhv/8Hkloz8M8OXL9RAOkENQFNINIBXaFIA6PbNYFoCyMHaAJUA/PZZlU/TmdqPbUuSQLL+XZvnTlYZ8rLsyqo4ih17ABevBeDhmAF6Ir3EJlxa9Q6sQF8E++sKa73qqSsB6WGBSCV+AYQDpBSPBwgtXgogIR4GICUeAiApPhoAGnxCtA4IJ0C5B6QhIAASCYBA5CCgAJIQMABUkOwAKSEYAP4BZGNR9P6dnxR3vt9NawAnyAG8UPTdc3fE2jx0U+Jvnjb5/liN0GtTXsu+wr9AxlSqwAhriF7NAGkmyGzNIEQ15A9mgDSzZBZmkCIa8iewSfwBih+oTEVGaS2AAAAAElFTkSuQmCC" alt="tilbagepil"/>
+          </div>
+        </a>
+      </aside>
+      <main class="main">
+        <div class="logo-a">
+          <img class="adobe-logo" src="img/adobe.png" alt="Adobe Logo">
+        </div>
+        <div class="tilmeld-abonnement">
+          <div class="abonnementprofil"></div>
+            <div class="navn-app">
+              <h1>Adobe</h1>
+            </div>
+              <div class="textsfelt" id=beskrivelse>
+                <p>Adobe er en samling af de klassiske programmer som InDesign, Photoshop, Animate, After Effects og en masse andre. Abonnementet henvender sig primært til designere, men alle som skal bruge det er da velkomne! Pakken kommer med en bruger og en Creative Cloud, hvor man kan lagre sine projekter. Adobe bliver eller er blevet brugt til for eksempel Projekt Novo Nordisk, Projekt Verisure og Projekt Bone’s. </p>
+              </div>
+
+            <div class="hashtag">
+              <div id="hashtagknapper"></div>
+              <div class="plus-icon" onmouseover="changeColor(this, colors[0])" onmouseout="changeColor(this, colors[1])">
+                  <img alt="Plus ikon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAN9JREFUSEvtljESwiAQRfcnB9BDxD6Njp2xdfQuyUn0Ljq2audoY28OoQcg64AWFmAMGtAZaBf2w2P/AsjTgCddCsLOyP8X6n5vkhLHc4UHojie16emqKxOPEymWUXYSLGIeLwvV9sgXEcgoK4jpOKtFtfDMh3dTiIgZeaFchOQV8x6O0FcTVYz3vEgmUmLjN5CYJ60O5TLTBf+PWGJOuaoq9stE1ImUp0LRAVIj1qgujRG/Qpxq8UVhJ8JBNTOnkVpNXCsOhdD5M4+Ah92s/vH5RtJbHIEYRtqVmu8ob4BT3mJHwevqi8AAAAASUVORK5CYII="/>
+              </div>
+            </div>
+            <div class="tilmeld">
+              <button data-modal-target="#modal" class="basisknap" onmouseover="changeColor(this, colors[0])" onmouseout="changeColor(this, colors[1])">Tilmeld/Afmeld</button>
+            </div>
+        </div>
+
+        <div class="modal" id="modal">
+          <button data-close-button class="close-button">&times;</button>
+          <div class="modal-body">
+            <p class="modal-tekst">Handling udført!</p>
+          </div>
+        </div>
+        <div id="overlay"></div>
+        <div class="space"></div>
+      </main>
+      <nav class="nav">
+
+      </nav>
+      <footer class="footer">
+      </footer>
+    </div>
+  </body>
+</html>

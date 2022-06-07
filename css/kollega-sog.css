@@ -1,0 +1,27 @@
+#kollega-liste {
+    margin-top: 3.125rem;
+}
+
+.kollegaer-liste {
+    background-color: #cbebdb;
+    max-width: 100%;
+    border-radius: 0.625rem;
+    border: none;
+    padding: 1rem 0 1rem 0;
+    margin: 0.625rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kollegaer-liste > p {
+    display: inline-block;
+    margin-right: 3rem;
+    margin: auto;
+}
+  
+.kollegaer-liste > img {
+    height: 4rem;
+    border-radius: 50%;
+    margin: 0 2rem 0 2rem;
+}

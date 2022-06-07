@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="da" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/projekt6.css">
+    <link rel="stylesheet" href="css/indstillinger.css">
+    <script src="javascript/modal.js" defer></script>
+    <link rel="icon" type="image/jpg" href="img/logo-img1.png">
+    <title>Ordo | Indstillinger</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <a href="egen-side.html">
+          <div class="logo">
+            <img class="logo-img" src="img/logo-img1.png" alt="Ordo logo">
+            <h3>Ordo</h3>
+          </div>
+        </a>
+      </header>
+      <aside class="aside">
+        <a href="egen-side.html">
+          <div class="tilbagepil">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAStJREFUaEPtl0EKwjAQRZPqQRQUvIDQpe4VPII9mT2CUA/gsuIFBBW8SaSLQClqx+RPhsJ0m5nhv/8Hkloz8M8OXL9RAOkENQFNINIBXaFIA6PbNYFoCyMHaAJUA/PZZlU/TmdqPbUuSQLL+XZvnTlYZ8rLsyqo4ih17ABevBeDhmAF6Ir3EJlxa9Q6sQF8E++sKa73qqSsB6WGBSCV+AYQDpBSPBwgtXgogIR4GICUeAiApPhoAGnxCtA4IJ0C5B6QhIAASCYBA5CCgAJIQMABUkOwAKSEYAP4BZGNR9P6dnxR3vt9NawAnyAG8UPTdc3fE2jx0U+Jvnjb5/liN0GtTXsu+wr9AxlSqwAhriF7NAGkmyGzNIEQ15A9mgDSzZBZmkCIa8iewSfwBih+oTEVGaS2AAAAAElFTkSuQmCC" alt="tilbagepil"/>
+          </div>
+        </a>
+      </aside>
+      <main class="main">
+        <div class="Indstillinger">
+          <input class="search" type="search" name="search">
+          <div class="liste" id="darklight">
+            <h2>Dark/Light</h2>
+            <button class="pilleknap"></button>
+          </div>
+          <hr>
+          <div class="liste" id="abonnementliste">
+            <h2>Vis abonnementer om liste</h2>
+            <button class="pilleknap"></button>
+          </div>
+          <hr>
+          <div class="liste" id="kode">
+            <h2>Rediger kodeord</h2>
+            <div class="blyant">
+              <img src="img/blyant.png" alt="blyantlogo"/>
+            </div>
+          </div>
+          <hr>
+          <div class="liste" id="setidligere">
+              <h2>Se tidligere abonnementer</h2>
+              <div class="frempil">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAR9JREFUaEPtl0EKwkAMRWdu4sKCF1C69AAWvIF6MnsEQfe6LHgBQUEPoh2ZRUGki0Dyfymk6yT8938gnRhG/sWR6w8OMHSCnoAnoHTAV0hpoLrdE1BbqBzgCfQZWE5Xy+ZxuijNFbWbJ7AoqjqksEkx7K73Yy1SoSgyBejEd3oYEGYAeW3aEM//ZqIhzACy8HlRbWMKeyaEKcAQEOYAbAgIABMCBsCCgAIwIOAAaAgKABLCASS/McgDB08AKT6bBwVAi4cCMMTDAFjiIQBM8eYAbPGmAOVsPWnfnyfzLWAK0Hdt0a8xc4BfCIZ4CEAemtepuR1ekiutrYEeMq04Sb8DSFxC1ngCSHclsz0BiUvIGk8A6a5kticgcQlZM/oEvjZupDFRUeMKAAAAAElFTkSuQmCC" alt="frem pil"/>
+              </div>
+          </div>
+          <div class="log-ud">
+              <button onclick="window.location.href='login.html'" class="basisknap" id="logud" type="button" onmouseover="changeColor(this, colors[0])" onmouseout="changeColor(this, colors[1])">Log ud</button>
+          </div>
+          <div class="slet-bruger">
+              <button onclick="window.location.href='login.html'" class="basisknap" id="sletbruger" type="button" onmouseover="changeColor(this, colors[0])" onmouseout="changeColor(this, colors[1])">Slet profil</button>
+          </div>
+        </div>
+        <div class="space"></div>
+      </main>
+      <nav class="nav">
+      </nav>
+      <footer class="footer">
+      </footer>
+    </div>
+  </body>
+</html>
