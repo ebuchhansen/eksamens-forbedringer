@@ -492,6 +492,8 @@ a {
     margin: 0;
     width: 100%;
     background-color: #4E3B66;
+    position: fixed;
+    bottom: 0;
   }
 
   .menubox1:hover {
