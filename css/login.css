@@ -117,16 +117,16 @@ p.opret:hover {
   cursor: pointer;
 }
 
-main {
+form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+@media screen and (max-width: 800px) {
+  
+}
+
+@media screen and (max-width: 600px) {
 }
