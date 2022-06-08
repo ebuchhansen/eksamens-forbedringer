@@ -116,3 +116,17 @@ p.opret:hover {
   color: #4E3B66;
   cursor: pointer;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
