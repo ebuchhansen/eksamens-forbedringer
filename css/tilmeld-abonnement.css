@@ -13,12 +13,9 @@
   align-items: center;
 }
 
-.textsfelt{
-  background-color: #CBEBDB;
-  color: #36244D;
+.beskrivelse-abonnement {
   padding: 1rem;
   border-radius: 0.6rem;
-  font-size: 0.9rem;
 }
 
 .hashtag {
