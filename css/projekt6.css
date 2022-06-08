@@ -99,6 +99,7 @@ a {
   margin: 1.25rem;
   font: 400 0.9rem "Work Sans", sans-serif;
   font-weight: normal;
+  cursor: pointer;
 }
 
 .pilleknap {
@@ -166,6 +167,7 @@ a {
   margin-top: 0.188rem;
   margin-right: -0.938rem;
   margin-left: 1.25rem;
+  cursor: pointer;
 }
 
 .filtericonogknap {
@@ -177,6 +179,7 @@ a {
   background-color: #DCBCFD;
   width: 1.5rem;
   border-radius: 0.5rem;
+  cursor: pointer;
 }
 
 .plus-icon > img {
