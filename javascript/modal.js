@@ -31,7 +31,7 @@ function closeModal(modal) {
 
 /*hover tekst i menu*/
 
-let colors = ["#4E3B66","#DCBCFD"];
+let colors = ["#4E3B66","#DCBCFD", "#F07068", "#8C1E18"];
 
 function changeColor(element, color) {
   element.style.backgroundColor = color;

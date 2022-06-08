@@ -16,9 +16,19 @@ h2{
 
 #sletbruger{
   background-color: #F07068;
-  width: 45%;
+  width: 20%;
 }
 
 #logud {
-  width: 45%;
+  width: 20%;
+}
+
+@media screen and (max-width: 600px) {
+  #sletbruger{
+    width: 45%;
+  }
+  
+  #logud {
+    width: 45%;
+  }
 }

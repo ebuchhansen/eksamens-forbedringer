@@ -25,3 +25,14 @@
     border-radius: 50%;
     margin: 0 2rem 0 2rem;
 }
+
+@media screen and (max-width: 600px) {
+    .kollegaer-liste > img {
+        height: 3rem;
+    }
+
+    .kollegaer-liste > p {
+        margin-right: 2rem;
+    }
+      
+}
