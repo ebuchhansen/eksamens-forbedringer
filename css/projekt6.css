@@ -161,10 +161,6 @@ a {
   display: none;
 }
 
-.filter-icon {
-  height: 3rem;
-}
-
 .kryds {
   max-width: 0.625rem;
   margin-top: 0.188rem;
@@ -563,6 +559,18 @@ a {
 }
 
 @media screen and (max-width: 600px){
+  body {
+    font-size: 0.8rem;
+  }
+
+  .main {
+    min-width: 10rem;
+  }
+
+  .indstillinger-ikon > img {
+    height: 2.2rem;
+  }
+
   .modal-body {
     padding: 1.25rem 0 0.313rem 1.563rem;
     display: flex;
@@ -575,6 +583,10 @@ a {
 
   .logo-img {
     height: 2rem;
+  }
+
+  .filter-icon > img {
+    height: 1.8rem;
   }
 
   .column > a > img {

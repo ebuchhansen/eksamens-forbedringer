@@ -26,8 +26,6 @@ main {
   align-items: center;
 }
 
-
-
 #navn {
   background: transparent;
   border: none;
@@ -99,4 +97,24 @@ main {
 
 .imgknap {
   height: 2.2rem;
+}
+
+
+
+@media screen and (max-width: 800px) {
+  .abonnementbillede {
+    height: 65%;
+  }
+  
+  #hashtagknapper > div {
+    margin: 0.625rem  0.625rem 0.625rem 0;
+  }
+
+  #beskrivelse, #email, #password, #pris {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
 }

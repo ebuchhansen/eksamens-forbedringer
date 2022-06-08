@@ -53,3 +53,15 @@
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (max-width: 800px) {
+  .logo-a > img {
+    height: 13rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .logo-a > img {
+    height: 10rem;
+  }
+}
