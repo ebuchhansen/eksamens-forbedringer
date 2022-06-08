@@ -13,3 +13,12 @@ h2{
 .pilleknap, .blyant, .frempil {
   margin-left: auto;
 }
+
+#sletbruger{
+  background-color: #F07068;
+  width: 45%;
+}
+
+#logud {
+  width: 45%;
+}
