@@ -191,14 +191,16 @@ a {
 
 .plus-icon2 {
   background-color: #DCBCFD;
-  height: 4.688rem;
-  width: 4.688rem;
+  height: 4rem;
+  width: 4rem;
   border-radius: 0.5rem;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0.3rem auto 0.3rem auto;
 }
+
 
 
 /* menu */
@@ -624,21 +626,26 @@ a {
     margin: auto 6% 2% auto;
   }
 
+  .plus-icon2 {
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+
   /* font */
-p {
-  line-height: 1.2rem;
-  font: 400 0.8rem "Work Sans", sans-serif;
-}
+  p {
+    line-height: 1.2rem;
+    font: 400 0.8rem "Work Sans", sans-serif;
+  }
 
-h1 {
-  font: 600 2rem "Work Sans", sans-serif;
-}
+  h1 {
+    font: 600 2rem "Work Sans", sans-serif;
+  }
 
-h2 {
-  font: 600 1rem "Work Sans", sans-serif;
-}
+  h2 {
+    font: 600 1rem "Work Sans", sans-serif;
+  }
 
-h3 {
-  font: 650 1.6rem "Work Sans", sans-serif;
-}
+  h3 {
+    font: 650 1.6rem "Work Sans", sans-serif;
+  }
 }
