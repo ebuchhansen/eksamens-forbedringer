@@ -31,8 +31,12 @@ function myFunction() {
   let defaultPris = pris.defaultValue;
   let currentPris = pris.value;
 
+  let kort = document.getElementById('kortnr');
+  let defaultKort = kort.defaultValue;
+  let currentKort = kort.value;
 
-  if (defaultNavn == currentNavn || defaultBeskrivelse == currentBeskrivelse || defaultEmail == currentEmail || defaultPassword == currentPassword || defaultPris == currentPris) {
+
+  if (defaultNavn == currentNavn || defaultBeskrivelse == currentBeskrivelse || defaultEmail == currentEmail || defaultPassword == currentPassword || defaultPris == currentPris || defaultKort == currentKort) {
     alert('Udfyld alt!');
   }
 
@@ -69,6 +73,11 @@ function myOnfocus4() {
 
 function myOnfocus5() {
   let onfocus = document.getElementById('pris');
+  onfocus.value = "";
+}
+
+function myOnfocus6() {
+  let onfocus = document.getElementById('kortnr');
   onfocus.value = "";
 }
 
@@ -118,6 +127,15 @@ function myOnblur5() {
 
   if (onblur.value == "" ) {
     onblur.value = "Pris...";
+
+  }
+}
+
+function myOnblur6() {
+  let onblur = document.getElementById('kortnr');
+
+  if (onblur.value == "" ) {
+    onblur.value = "Kort nr...";
 
   }
 }
