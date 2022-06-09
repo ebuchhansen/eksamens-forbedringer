@@ -189,6 +189,18 @@ a {
   align-items: center;
 }
 
+.plus-icon2 {
+  background-color: #DCBCFD;
+  height: 4.688rem;
+  width: 4.688rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 /* menu */
 
 .menu {
@@ -502,7 +514,7 @@ a {
   .menubox1:hover {
     background-color: #36244D;
   }
-  
+
   .menubox2:hover {
     background-color: #36244D;
   }
@@ -510,7 +522,7 @@ a {
   .menu-desktop {
     display: none;
   }
-  
+
   .menu-mobile {
     display: inherit;
   }
@@ -603,7 +615,7 @@ a {
   .row-desktop {
     display: none;
   }
-  
+
   .row-mobile {
     display: inherit;
   }
