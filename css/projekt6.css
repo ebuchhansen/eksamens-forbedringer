@@ -366,6 +366,7 @@ a {
   font-size: 1.5rem;
   float: right;
   margin: 0.3rem 0.7rem 0.5rem 0;
+  cursor: pointer;
 }
 
 .modal-body {
@@ -388,6 +389,7 @@ a {
   margin: 3rem -1rem 3rem 0;
   line-height: 1.2rem;
   font: 400 0.9rem "Work Sans", sans-serif;
+  cursor: pointer;
 }
 
 .add-new-abonnement {
@@ -402,12 +404,12 @@ a {
   margin: 3rem 0 3rem 0;
   line-height: 1.2rem;
   font: 400 0.9rem "Work Sans", sans-serif;
+  cursor: pointer;
 }
 
 .modal-knapper {
   padding-bottom: 1rem;
 }
-
 
 #overlay {
   position: fixed;
